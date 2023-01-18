@@ -1,0 +1,89 @@
+.card1 {
+  position: absolute;
+  left: 4.03%;
+  right: 68.55%;
+  top: 6.76%;
+  bottom: 52.23%;
+}
+.card2 {
+  position: absolute;
+  left: 36.29%;
+  right: 36.29%;
+  top: 6.76%;
+  bottom: 52.23%;
+}
+.card3 {
+  position: absolute;
+  left: 68.55%;
+  right: 4.03%;
+  top: 6.76%;
+  bottom: 52.23%;
+}
+.card4 {
+  position: absolute;
+  left: 4.03%;
+  right: 68.55%;
+  top: 53.8%;
+  bottom: 5.19%;
+}
+.card5 {
+  position: absolute;
+  left: 36.29%;
+  right: 36.29%;
+  top: 53.8%;
+  bottom: 5.19%;
+}
+.card6 {
+  position: absolute;
+  left: 68.55%;
+  right: 4.03%;
+  top: 53.8%;
+  bottom: 5.19%;
+}
+
+.title {
+  position: absolute;
+  left: 5.88%;
+  right: 5.88%;
+  top: 78.82%;
+  bottom: 5.88%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  /* or 26px */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #ffffff;
+  z-index: 1;
+}
+
+.rectangle {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  border-radius: 10px;
+}
+
+.img {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #ff6060;
+  border-radius: 10px;
+}

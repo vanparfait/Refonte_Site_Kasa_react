@@ -1,0 +1,40 @@
+.Header {
+  position: absolute;
+  width: 1240px;
+  height: 68px;
+  left: 100px;
+  top: 40px;
+}
+.Header .Nav {
+  position: absolute;
+  left: 75.08%;
+  right: 0%;
+  top: 25%;
+  bottom: 25%;
+  width: 300px;
+}
+
+.Header .Nav .lien1,
+.lien2 {
+  display: inline-block;
+  margin-right: 50px;
+  color: red;
+  text-decoration: none;
+}
+
+.Header .Nav .lien1:hover {
+  border-bottom: 3px solid blue;
+}
+.Header .Nav .lien2:hover {
+  border-bottom: 3px solid blue;
+}
+
+.LOGO {
+  position: absolute;
+  left: 0%;
+  right: 83.04%;
+  top: 0%;
+  bottom: 0%;
+  height: 68px;
+  width: 210px;
+}

@@ -1,9 +1,17 @@
 import React from "react";
+import Banner from "../composants/Banner";
+import Gallery from "../composants/Gallery";
+import Header from "../composants/Header";
+import "../styles/Home.css";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Bienvenue sur le site de KASA</h1>
+    <div className="Home">
+      <Header />
+      <div className="Body">
+        <Banner />
+        <Gallery />
+      </div>
     </div>
   );
 };
