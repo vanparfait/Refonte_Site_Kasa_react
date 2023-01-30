@@ -1,61 +1,33 @@
 import React from "react";
-import { useState } from "react";
-import "../styles/Collapse1.css";
-import starregular from "../assets/starregular.svg";
+import ChildCollapse from "./ChildCollapse";
+import "../styles/Collapse.css";
 
-const Collapse1 = ({ label }) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toogle = () => {
-    setIsOpen(!isOpen);
-  };
+const Collapse1 = () => {
   return (
-    <div className="container">
-      <div className="collapse">
-        <div className="dropdownlarge">
-          <div className="respect">Respect</div>
-
-          <img
-            src={starregular}
-            onClick={toogle}
-            className="icone"
-            alt="star"
-          />
-          {isOpen && (
-            <div className="toogle1">
-              <p>{label}</p>
-            </div>
-          )}
-        </div>
-        <div className="dropdown-close-response">
-          <div className="responsabilite">Responsabilite</div>
-
-          <img
-            src={starregular}
-            onClick={toogle}
-            className="icone"
-            alt="star"
-          />
-          {isOpen && (
-            <div className="toogle2">
-              <p>
-                Gardez en tête que le Collapse doit avoir deux états différents
-                : il peut être ouvert ou fermé. Pensez à bien utiliser les
-                propriétés des composants pour passer les données voulues.
-              </p>
-            </div>
-          )}
-        </div>
-        <div className="dropdown-close-service">
-          <div className="service">Service</div>
-
-          <img src={starregular} className="icone" alt="ttt" />
-        </div>
-        <div className="dropdownlarge-close-fiable">
-          <div className="fiabilite">Fiabilite</div>
-
-          <img src={starregular} className="icone" alt="ttt" />
-        </div>
-      </div>
+    <div className="Gcollapse">
+      <ChildCollapse
+        label="Service"
+        response="Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite.
+         N'hésitez pas à nous contacter si vous avez la moindre question."
+      />
+      <ChildCollapse
+        label="Respect"
+        response="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement 
+        discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
+      />
+      <ChildCollapse
+        label="Securite"
+        response="La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs,
+         chaque logement correspond aux critères de sécurité établis par nos services. En laissant une 
+         note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards
+          sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes. "
+      />
+      <ChildCollapse
+        label="Fiabilite"
+        response="Les annonces postées sur Kasa garantissent une fiabilité totale. 
+        Les photos sont conformes aux logements, et toutes les informations sont 
+        régulièrement vérifiées  par nos équipes."
+      />
     </div>
   );
 };

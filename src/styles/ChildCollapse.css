@@ -1,0 +1,41 @@
+.childCollapse {
+  position: relative;
+
+  top: 430px;
+  width: 1024px;
+  margin: 0 auto;
+}
+.icone {
+  /* margin-left: 900px; */
+  width: 22px;
+  position: absolute;
+  right: 100px;
+  top: 15px;
+}
+.dropdownlarge {
+  display: flex;
+  background-color: red;
+  margin-bottom: 20px;
+
+  width: 1023px;
+  height: 47px;
+}
+.label {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+
+  color: #ffffff;
+}
+
+.toogle p {
+  padding: 6px;
+
+  background-color: #f6f6f6;
+  color: crimson;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-top: 0;
+}

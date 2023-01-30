@@ -12,7 +12,7 @@ const About = () => (
     <Header />
     <Banner />
     {/* <Collapse /> */}
-    <Collapse1 label="La logique de routage fonctionnelle." />
+    <Collapse1 />
   </div>
 );
 
