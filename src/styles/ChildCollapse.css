@@ -26,16 +26,19 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 142.6%;
-
+  margin-left: 9px;
+  margin-top: 7px;
   color: #ffffff;
 }
 
 .toogle p {
-  padding: 6px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 142.6%;
+  background: #f7f7f7;
+  border-radius: 5px;
 
-  background-color: #f6f6f6;
-  color: crimson;
-  letter-spacing: 1px;
-  line-height: 25px;
-  margin-top: 0;
+  color: #ff6060;
 }

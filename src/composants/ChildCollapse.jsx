@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import "../styles/ChildCollapse.css";
-import starregular from "../assets/starregular.svg";
+import chevrondownsolid from "../assets/chevrondownsolid.svg";
+import chevronupsolid from "../assets/chevronupsolid.svg";
 
 const ChildCollapse = ({ label, response }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,12 +15,13 @@ const ChildCollapse = ({ label, response }) => {
         <div className="dropdownlarge">
           <div className="label"> {label} </div>
 
-          <img
-            src={starregular}
-            onClick={toogle}
-            className="icone"
-            alt="star"
-          />
+          <span onClick={toogle} className="icone">
+            {isOpen ? (
+              <img src={chevronupsolid} alt="star" />
+            ) : (
+              <img src={chevrondownsolid} alt="star" />
+            )}
+          </span>
         </div>
         {isOpen && (
           <div className="toogle">
