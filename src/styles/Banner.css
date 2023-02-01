@@ -4,7 +4,9 @@
   height: 223px;
   left: 100px;
   top: 171px;
-  background-image: url(../assets/Background.jpg);
+  object-fit: cover;
+  background-image: url(../assets/kalen.webp);
+  border-radius: 25px;
 }
 .Section1 h1 {
   position: absolute;
