@@ -10,16 +10,18 @@ const Gallery = () => {
     fetch("http://localhost:8000/logements")
       .then((res) => res.json())
       .then((data1) => setData(data1));
-
-    console.log(data);
-  }, []);
+  });
 
   return (
     <div className="gallery">
       <div className="background"></div>
       <h1>Bienvenue dans ma galerie</h1>
       {data.map((logement) => (
-        <Card logement={logement} key={logement.id} />
+        <Card
+          logement={logement}
+          key={logement.id}
+          title="Titre de la location"
+        />
       ))}
     </div>
   );

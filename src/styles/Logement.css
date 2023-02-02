@@ -1,7 +1,35 @@
 .logement {
   position: relative;
-  width: 1440px;
-  height: 1024px;
+  width: 1614px;
+  height: 2049px;
 
   background: #ffffff;
+}
+.TAG {
+  position: absolute;
+  width: 115px;
+  height: 25px;
+  left: 100px;
+  top: 670px;
+}
+
+.alexandreDumas {
+  position: absolute;
+  width: 93px;
+  height: 52px;
+  left: 1170px;
+  top: 573px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  /* or 26px */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+
+  color: #ff6060;
 }

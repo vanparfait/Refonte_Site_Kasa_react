@@ -1,0 +1,30 @@
+.rectangle3 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #ff6060;
+  border-radius: 10px;
+
+  margin-right: 14px;
+}
+span .cozy {
+  position: absolute;
+  left: 34.78%;
+  right: 35.65%;
+  top: 12%;
+  bottom: 8%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 142.6%;
+  /* identical to box height, or 20px */
+
+  text-align: center;
+
+  color: #ffffff;
+}

@@ -97,7 +97,7 @@
   color: #ff6060;
 }
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .Error {
     position: relative;
     width: 375px;
@@ -133,4 +133,4 @@
     left: 20px;
     top: 20px;
   }
-}
+} */

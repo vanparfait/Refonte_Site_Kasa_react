@@ -1,13 +1,19 @@
 import React from "react";
-import Logo from "../composants/Logo";
-import Header from "../composants/Header";
+import Body from "../styles/Body";
+
 import "../styles/Logement.css";
+import Rectangle from "../styles/Rectangle";
 
 const Logement = () => {
   return (
     <div className="logement">
-      <Logo />
-      <Header />
+      <div className="TAG">
+        <Body />
+        <Rectangle title="Cozy" />
+        <Rectangle title="Canal" />
+        <Rectangle title="Paris 10" />
+      </div>
+      <div className="alexandreDumas">hhhhh</div>
     </div>
   );
 };

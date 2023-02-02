@@ -1,3 +1,14 @@
+.card {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #f7f7f7;
+  border-radius: 25px;
+}
+
 .card1 {
   position: absolute;
   left: 4.03%;
@@ -60,6 +71,8 @@
 
   color: #ffffff;
   z-index: 1;
+
+  width: 85px;
 }
 
 .rectangle {

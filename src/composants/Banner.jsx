@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/Banner.css";
 
-const Banner = () => {
+const Banner = ({ title }) => {
   return (
     <div className="Section1">
-      <h1>Chez vous, partout et ailleurs</h1>
+      <h1> {title} </h1>
       <div className="Mask">
         {/* <div className="background"></div> */}
         {/* <div className="img"></div> */}
